@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <style>
+            h1.one {
+                border-color: black;
+                border-width: 5px;
+                border-style: solid;
+                color:white;
+                background-color: green;
+            }
+            h1.two{
+                border-color: black;
+                border-width: 5px;
+                border-style: solid;
+                color:black;
+                background-color:tomato;
+                margin:2px;
+            }
+            table, td, th {
+              border-color: black;
+              border-style: solid;
+              border-width: 1px;
+              border-collapse: collapse;
+              margin-top: 20px;
+              /* idetincal to  */
+              /* border: 1px solid black; */
+            }
+            td {
+                color: tomato;
+            }
+            a.one {
+                color:green;
+            }
+            a.two {
+                color:tomato;
+            }
+            div {
+                width:max-content;
+                border-style:solid;
+                border-width:1px;
+                height:fit-content;
+            }
+    
+        </style>
+    </head>
+    <body>
+        <h1 class="one" style="background-color: green;color: white;">
+        Vancouver Vs. Toronto Population Growth
+        </h1>
+        <div>
+        <h1 class="two">
+            Vancouver Population Growth
+        </h1>
+
+        <table>
+            <tr> <th> Year </th> <th> Population </th>  <th> -+ %</th> </tr>
+            
+            <tr> <td>1891 </td> <td>21,887</td>  <td>--</td> </tr>
+            
+            <tr> <td>1901 </td> <td>42,926</td> <td>+96.1%</td> </tr>
+            
+            <tr> <td>1911 </td> <td>164,926</td> <td>+282.1%</td> </tr>
+        </table>
+        <p style="margin-bottom: 2px;">
+            Source: <a class="one" href="https://en.wikipedia.org/wiki/History_of_Vancouver" target="_blank">Wikipedia</a>
+        </p>
+        <h1 class="two" style="width:calc(div);">
+            Toronto Population Growth
+        </h1>
+        <table>
+            <tr> <th> Year </th> <th> Population </th>  <th> -+ %</th> </tr>
+            
+            <tr> <td>1891 </td> <td>238,080</td>  <td>--</td> </tr>
+            
+            <tr> <td>1901 </td> <td>42,926</td> <td>+2373.3%</td> </tr>
+            
+            <tr> <td>1911 </td> <td>381,383</td> <td>+60.2%</td> </tr>
+        </table>
+        <p style="margin-bottom: 2px;">
+            Source: <a class = "two" href="https://en.wikipedia.org/wiki/History_of_Toronto" target="_blank">Wikipedia</a>
+        </p>
+        </div>     
+    </body>
+
+</html>
