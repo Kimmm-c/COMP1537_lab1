@@ -1,0 +1,118 @@
+<html>
+
+<head>
+    <title></title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #header {
+            background-color: lightgrey;
+            color: black;
+            text-align: center;
+        }
+
+        .body {
+            background-color: lightgrey;
+        }
+
+        .card {
+            width: 69%;
+            float: left;
+            margin-top: 20px;
+        }
+
+        #footer {
+            background-color: lightgrey;
+            color: black;
+            text-align: center;
+            clear: both;
+        }
+
+        #leftbox1 {
+            background-color: #a2b9bc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        #leftbox2 {
+            background-color: #a2b9bc;
+            padding: 10px;
+        }
+
+        #rightbox {
+            background-color: #a2b9bc;
+            color: black;
+            float: right;
+            width: 30%;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        #navbar {
+            background-color: black;
+            color: white;
+            padding: 14px 16px 14px 16px;
+        }
+        h1, h2, h3, div{
+                margin: 0px;
+            }
+
+        @media screen and (max-width: 600px) {
+
+            #body,
+            #rightbox {
+                width: 100%;
+            }
+
+            #rightbox {
+                padding-left: 0px;
+            }
+        }
+
+        @media screen and (max-width:300px) {
+            #navbar a {
+                float: none !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <div id="header">
+            <h1>My Website</h1>
+            <p>Should be responsive</p>
+        </div>
+        <div id="navbar">
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="" style="float:right;">Link</a>
+        </div>
+        <div class="card">
+            <div id="leftbox1">
+                <h2>Title Heading</h2>
+                <h4><b>Ab nemo iure saepe</b></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo iure saepe illum quia quae laudantium, maiores alias id? Dolorum ipsa facilis quisquam consequuntur quos? Eius inventore ab perspiciatis suscipit?</p>
+            </div>
+
+            <div id="leftbox2">
+                <h2>Title Heading</h2>
+                <h4>Ab nemo iure saepe</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo iure saepe illum quia quae laudantium, maiores alias id? Dolorum ipsa facilis quisquam consequuntur quos? Eius inventore ab perspiciatis suscipit?</p>
+            </div>
+        </div>
+        <div id="rightbox">
+            <h2>Title Heading</h2>
+            <h4>Ab nemo iure saepe</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo iure saepe illum quia quae laudantium, maiores alias id? Dolorum ipsa facilis quisquam consequuntur quos? Eius inventore ab perspiciatis suscipit?</p>
+        </div>
+        <div id="footer">
+            <h2>Footer</h2>
+        </div>
+    </div>
+</body>
+
+</html>
