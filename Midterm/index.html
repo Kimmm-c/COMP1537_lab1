@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        nav {
+            text-align: center;
+        }
+
+        #first_nav {
+            width: 30%;
+            float: left;
+            margin-top:10px;
+        }
+
+        #second_nav {
+            width: 30%;
+            float: left;
+            margin-top:10px;
+        }
+
+        .img-container {
+            width: 32%;
+            float: left;
+            padding: 5px;
+            text-align: center;
+           
+            
+        }
+        #tab{
+            float:left;
+            width:30%;
+        }
+
+        main {
+            /* float: left; */
+            /* width: 80%; */
+            padding: 10px;
+            /* background-color: beige; */
+        }
+
+        blockquote {
+            text-align: center;
+            clear: both;
+        }
+
+        #description {
+            text-align: center;
+            clear: both;
+        }
+
+        footer,
+        header {
+            text-align: center;
+            clear: both;
+            height: max-content;
+        }
+
+        @media screen and (max-width: 550px) {
+            .img-container {
+                width: 100%;
+                float: none;
+                padding: 10px 0px 10px 0px;
+            }
+
+            #center {
+                width: 100%;
+            }
+
+            nav a {
+                width: 100%;
+                float: none !important;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav id="first_nav">
+            <hr>
+            <div id="tab">
+                <a href="">
+                    Math
+                </a>
+            </div>
+            <div id="tab">
+            <a href="">
+                Art
+            </a>
+            </div>
+            <div id="tab">
+            <a href="">
+                Astronomy
+            </a>
+            </div>
+        </nav>
+        <div style="width: 40%; float:left;">
+            <h1>LEONARDO DA VINCI</h1>
+        </div>
+        <nav id="second_nav">
+            <hr>
+            <div id="tab">
+                <a href="">
+                    Anatomy
+                </a>
+            </div>
+            <div id="tab">
+                <a href="">
+                    Inventions
+                </a>
+            </div>
+            
+            <div id="tab">
+                <a href="">
+                    Wiki
+                </a>
+            </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <div>
+            <blockquote>"Learning never exhausts the mind"</blockquote>
+
+        </div>
+        <div>
+            <h3 id="description">LEONARDO DA VINCI
+            </h3>
+        </div>
+        <div class="clearfix">
+            <div id="center">
+                <div class="img-container">
+                    <img src="https://thumbor.granitemedia.com/img/ESONIHzcrbt1zB_fIQlVFN-dIe8=/800x0/filters:quality(80)/granite-web-prod/18/ff/18ffeb4a9e35440ab6a1137e36b91965.jpeg"
+                        alt="Italy" style="width:100%">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="clearfix">
+            <div id="center">
+                <div class="img-container">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat."</p>
+                    <h3>- HIPPOLYTE TAINE
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix">
+            <div id="center">
+                <div class="img-container">
+                    <img src="https://thumbor.granitemedia.com/img/ESONIHzcrbt1zB_fIQlVFN-dIe8=/800x0/filters:quality(80)/granite-web-prod/18/ff/18ffeb4a9e35440ab6a1137e36b91965.jpeg"
+                        alt="Italy" style="width:100%">
+                </div>
+
+            </div>
+        </div>
+        
+            
+    </main>
+    <footer>
+        <p style="padding:10px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni officiis, eos tempore explicabo sequi
+            culpa consequuntur.</p>
+        <div style="background-color: tomato;padding: 10px 40% 10px 40%;">
+            <div style="background-color: white;">
+                <a href=""><h5>
+                    READ MORE ON WIKI
+                </h5>
+            </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
