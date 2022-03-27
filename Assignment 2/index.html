@@ -3,12 +3,13 @@
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- <script src="./script.js"></script> -->
-    <script src="./script2.js"></script>
-
+    <!-- <script src="./script2.js"></script> -->
+    <script src="./script3.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
+    <div class="header">
         <span>Results per page
             <select id="result_per_page">
                 <!-- <option value="blank"></option> -->
@@ -20,7 +21,7 @@
         </span>
         <br>
         <span>Search TMDB by title <input type="text" id="key_word" ><button type="submit"
-                id="get_movies" index="absence">Search</button> </span><br>
+                id="get_movies">Search</button> </span><br>
         <span id="monitor_buttons" style="display:none;">
             <button id="first">First</button>
             <button id="prev">Prev</button>
@@ -28,7 +29,7 @@
             <button id="next">Next</button>
             <button id="last">Last</button></span>
     </div>
-    <div id="movie_display" style="width: 50%; float:left;">
+    <div id="movie_display" style="width: 47%; float:left;">
     </div>
     <div id="backdrop_section" style="width: 50%; float:left;"></div>
 </body>

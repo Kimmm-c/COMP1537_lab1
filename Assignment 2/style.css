@@ -1,0 +1,38 @@
+button {
+    border-radius: 0.3rem;
+    border-width: 0.05px;
+    background-color: transparent;
+    margin: 2px;
+}
+
+#get_movies{
+    background-color: rgb(214, 250, 229);
+    border-radius: 0.3rem;
+    border-width: 0.05px;
+}
+
+#movie_display{
+    background-color: rgb(214, 250, 229);
+}
+
+.header{
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.display_backdrop{
+    background-color: rgb(100, 148, 120);
+    color: white;
+}
+
+.movie_section{
+    margin: 10px;
+}
+
+button:hover{
+    background-color: rgb(100, 148, 120);
+}

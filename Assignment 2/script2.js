@@ -101,8 +101,8 @@ function page_view(data, result_per_page, page_index) {
         poster = "http://image.tmdb.org/t/p/w500/" + data.results[i].poster_path;
         backdrop = "http://image.tmdb.org/t/p/original//" + data.results[i].backdrop_path;
         $("#movie_display").append(`<div class="movie_section">
-            ${i + 1}. <br>
-            Title: ${title} <br>
+            ${i + 1}.
+            <h3>Title: ${title} </h3>
             Description: ${des} <br>
             <img src="${poster}" style="width:15%; height:relative;">
             <button class="display_backdrop" id="${backdrop}">Display Backdrop</button> <hr></div>`)
@@ -117,8 +117,8 @@ function first_call_display(data, result_per_page) {
         poster = "http://image.tmdb.org/t/p/w500/" + data.results[i].poster_path;
         backdrop = "http://image.tmdb.org/t/p/original//" + data.results[i].backdrop_path;
         $("#movie_display").append(`<div class="movie_section">
-    ${i + 1}. <br>
-    Title: ${title} <br>
+    ${i + 1}.
+    <h3>Title: ${title} </h3>
     Description: ${des} <br>
     <img src="${poster}" style="width:15%; height:relative;">
     <button class="display_backdrop" id="${backdrop}">Display Backdrop</button> <hr></div>`)
